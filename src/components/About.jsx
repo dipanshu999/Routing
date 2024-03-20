@@ -5,7 +5,7 @@ export default function About() {
   const navigate=useNavigate();
 
   let goBack=()=>{
-    navigate(-1);
+    navigate("/");
   }
   return (  
     <div>
