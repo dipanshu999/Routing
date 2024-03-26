@@ -3,7 +3,7 @@ import {Link, NavLink, Route, Routes} from "react-router-dom"
 export default function Navbar() {
   return (
     <div>
-      <nav className='flex gap-8 text-xl items-center justify-center p-4 bg-yellow-100'>
+      <nav className='flex gap-8 text-xl items-center justify-center p-4 bg-red-100'>
 
         <NavLink to="/" style={(e)=>{
           return {
